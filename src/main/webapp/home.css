@@ -1,0 +1,165 @@
+
+    .container{
+        margin: 88px 120px 0px 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        width:150px; 
+        height: 142px;
+        margin: 15px 30px;
+        border: 3px solid #0d6efd;
+        color: #0d6efd;
+        box-shadow: 3px 3px 8px grey;
+        border-radius: 8px;
+    }
+    .card:hover{
+        color: white;
+        background-color: #0d6efd;
+        box-shadow: 8px 6px 5px grey;
+    }
+
+    .card-name{
+        text-align: center;
+        margin: 24px 13px 13px 13px;
+        font-size: 25px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-text{
+        text-align: center;
+        font-size: 12px;
+        padding-top: 3px;
+        color: white;
+        background-color: #0d6efd;
+    }
+    .card-no{
+        text-align: center;
+        color: white;
+        background-color: #0d6efd;
+    }
+
+    #body{
+        margin: 60px 14px 0px 14px;
+        padding-top: 5px;
+        height: 525px;
+    }
+    #center-div{
+        margin: 5px auto;
+        width: 50%; 
+        height: 140px;
+    }
+    #app-name{
+        text-align: center;
+        color: #0d6efd;
+    }
+    #intro-div{
+        margin: 5px 5px;
+        height: 65px;
+        padding: 0px 57px;
+    }
+    #intro-para{
+        text-align: center;
+        font-size: 22px;
+        line-height: 30px;
+        font-family: cursive;
+    }
+    
+    #show-btn{
+        color: white; 
+        background-color: #0d6efd; 
+        border: 1px solid white; 
+        border-radius: 15px; 
+        width: 50px; 
+        height: 24px; 
+        box-shadow: 2px 3px 5px grey;
+    }
+    #show-btn:hover{
+        background-color: white;
+        color: #0d6efd;
+        border-color: #0d6efd;
+        box-shadow: 3px 4px 5px grey;
+    }
+    
+    
+    
+    
+    #type_doc1, #type_doc2{
+        height: auto;
+        border: 0;
+    }
+    #type_doc1 > h1 > a, #type_doc2 > h1 > a{
+        text-decoration: none;
+    }
+    
+    .cat-name{
+        margin-top: -85px;
+        color: #0d6efd;
+        font-size: 40px;
+        text-align: center;
+        position: fixed;
+        width: 600px;
+        margin-left: 370px;
+        background-color: white;
+        padding: 30px 0px 10px 0px;
+    }
+
+    .doctors, .appointments{
+        margin: 140px 14px 20px 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctors > div, .appointments > div{
+        width: 40%;
+        /*height: 318px;*/
+        border: 3px solid #0d6efd;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .doctors > div{
+        height: 318px;
+    }
+
+    td{
+        text-align: left;
+        width: 280px;
+        font-size: 20px;
+    }
+    tr > td:first-child{
+        padding-left: 30px;
+        width: 220px;
+        font-weight: 700;
+    }
+    
+    .specific_doctor_link:visited, .specific_doctor_link:link{
+        color: #0d6efd;
+    }
+    
+    input[type="submit"]{
+        margin: 20px 138px; 
+        background-color: #0d6efd; 
+        color: white; 
+        border-radius: 20px;
+        border: 0px;
+        height: 29px; 
+        width: 190px; 
+        font-size: 17px;
+    }
+    input[type="submit"]:hover{
+        background-color: white;
+        color: #0d6efd;
+        font-size: 20px;
+        font-family: serif;
+        border: 1px solid #0d6efd;
+        box-shadow: 3px 2px 5px #0d6efd;
+    }

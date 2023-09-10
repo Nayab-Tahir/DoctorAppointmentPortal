@@ -1,0 +1,89 @@
+    #form-div{
+        border: 2px solid #0d6efd; 
+        border-radius: 20px 0px; 
+        padding: 10px 18px; 
+        height: 470px; 
+        width: 30%; 
+        margin: 0px auto 0px auto;
+    }
+    #form-heading{
+        text-align: center; 
+        color: #0d6efd;
+    }
+    
+    td{
+        width: 198px;
+        height: 30px;
+        font-size: 21px;
+        color: #0453cc;
+        padding: 3px 0px;
+    }
+    td select{
+        width: 190px;
+        height: 30px;
+        background-color: white;
+        color: #0d6efd;
+        border: 1px solid #0d6efd;
+        font-size: 15px;
+    }
+    td input{
+        width: 181px;
+        height: 24px;
+        color: #0d6efd;
+        padding-left: 5px;
+        border: 1px solid #0d6efd;
+        font-size: 15px;
+    }
+    .avail-hrs{
+        width: 33px;
+        height: 17px;
+        
+    }
+
+    .op-txt{
+        font-size: 21px;
+        padding-left: 18px;
+    }
+
+    .error{
+        color: #ff3e3e;
+        font-size: 19px;
+        padding-left: 35px;
+        width: 300px;
+    }
+    
+    .errorDiv{
+        height: 27px;
+        padding: 30px;
+        text-align: center;
+        color: #ff3e3e;
+        font-size: 20px;
+    }
+
+    .btn{
+        margin: 2px 158px; 
+        background-color: #0d6efd; 
+        color: white; 
+        border-radius: 20px;
+        border: 0px;
+        height: 31px; 
+        width: 90px; 
+        font-size: 17px;
+    }
+    #cancel-btn{
+        background-color: white;
+        color: #0d6efd;
+        border: 1px solid #0d6efd;
+        width: 84px;
+        margin: 2px 161px;
+    }
+
+    .btn:hover{
+        background-color: white;
+        color: #0d6efd;
+        font-size: 22px;
+        font-family: serif;
+        border: 1px solid #0d6efd;
+        box-shadow: 3px 2px 5px #0d6efd;
+    }
+
